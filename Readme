@@ -1,0 +1,16 @@
+Explanation of work done by various code files - 
+
+1)myProject.m - main file, calls all the functions
+2)datasetter.m - builds image data matrix for cropped yale dataset
+3)datasetterfull.m - builds image data matrix for full-face yale dataset
+4)dsharvard.m - builds image data matrix for harvard data subsets
+5)pca.m - calculates error rate for eigenvalue method for yale dataset using 'leaving one out' method
+6)mypca.m - calculates error rate for eigenvalue method for harvard subsets
+7)ldapca.m - called by 'fisherfaces.m' to apply PCA before applying LDA
+8)lda.m - applies LDA and returns Wlda
+9)fisherfaces.m - calls 'ldapca.m' and 'lda.m' to return W = Wpca * Wlda
+10)ffharvard.m - calculates error rate for fisherface method for harvard subsets
+
+-'imgs' folder contains cropped yale dataset (15 persons, 11 images each), individual images have been renamed for simplicity.
+-'yalefaces' folder contains full-face yale dataset (15 persons, 11 images each), individual images have been renamed for simplicity.
+-'subsers' folder contains harvard dataset divided into 5 subsets based on their illuminations.
