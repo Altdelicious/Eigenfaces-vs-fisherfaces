@@ -13,4 +13,4 @@ Explanation of work done by various code files -
 
 -'imgs' folder contains cropped yale dataset (15 persons, 11 images each), individual images have been renamed for simplicity.
 -'yalefaces' folder contains full-face yale dataset (15 persons, 11 images each), individual images have been renamed for simplicity.
--'subsers' folder contains harvard dataset divided into 5 subsets based on their illuminations.
+-'subsets' folder contains harvard dataset divided into 5 subsets based on their illuminations.
